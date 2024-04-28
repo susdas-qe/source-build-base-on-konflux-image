@@ -1,4 +1,4 @@
-requests==2.30.0
+requests==2.31.0
 pytest==8.1.1
 mypy==1.8.0
 black==24.4.0
