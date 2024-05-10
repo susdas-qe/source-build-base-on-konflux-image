@@ -1,4 +1,4 @@
-Test building source container image for a downstream image based on another
+Test building source container image for a child image based on another
 image built by Konflux.
 
 The e2e test builds the image, then replace the built image in the Dockerfile
