@@ -1,6 +1,5 @@
 # Parent image is built from https://github.com/redhat-appstudio-qe/source-build-this-is-a-parent-image
-FROM quay.io/redhat-user-workloads/cqi-tenant/source-build-this-is-a-parent-image/source-build-this-is-a-parent-image:build-a3563-1715416522@sha256:a52072e5303891f3cfb69b56ab6b30b422e12b2575209be0f04f039b76fbfd88
-
+FROM quay.io/redhat-user-workloads/cqi-tenant/source-build-this-is-a-parent-image/source-build-this-is-a-parent-image:37888eb075a26a249b636bed4cc82d705643ab8a@sha256:723fcfd97d751937732920af4260fd288ab4ca005c120862b5cde322774fc17e
 WORKDIR /src
 COPY main.py .
 
