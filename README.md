@@ -1,6 +1,3 @@
-Test building source container image for a child image based on another
-image built by Konflux.
+Test building image based on another image built by Konflux.
 
-The e2e test builds the image, then replace the built image in the Dockerfile
-and onboard this repository to trigger a build.
-
+Parent image is built from https://github.com/cqi-stonesoup-test/source-build-this-is-a-parent-image
